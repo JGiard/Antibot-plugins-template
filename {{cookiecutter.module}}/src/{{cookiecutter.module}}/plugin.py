@@ -1,9 +1,9 @@
-from pynject import pynject
+from injector import inject
 
-from antibot.model.plugin import AntibotPlugin
+from antibot.plugin import AntibotPlugin
 
 
-@pynject
 class {{cookiecutter.name}}(AntibotPlugin):
+    @inject
     def __init__(self):
         super().__init__('{{cookiecutter.name}}')

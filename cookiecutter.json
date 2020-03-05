@@ -1,5 +1,5 @@
 {
   "name": "Hello",
   "module": "{{ cookiecutter.name.lower().replace(' ', '_') }}",
-  "author": "Jean Giard"
+  "author": "Me"
 }
